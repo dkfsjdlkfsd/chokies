@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/chokies/static/css/main.4fae36d2.css",
+    "main.js": "/chokies/static/js/main.49a9d06f.js",
+    "static/js/787.648ca22c.chunk.js": "/chokies/static/js/787.648ca22c.chunk.js",
+    "static/media/가을.png": "/chokies/static/media/가을.7b0be96f7da96a8f4e00.png",
+    "static/media/BlackAndWhitePicture-Regular.ttf": "/chokies/static/media/BlackAndWhitePicture-Regular.c2d7fec846ddfbc4090e.ttf",
+    "static/media/봄.png": "/chokies/static/media/봄.7aba6691e83372588dc3.png",
+    "static/media/처음2.png": "/chokies/static/media/처음2.d66ebd05ba0f1fbf4ebb.png",
+    "static/media/처음.png": "/chokies/static/media/처음.53a7d8f2a418bcac066e.png",
+    "static/media/미연시배경.jpg": "/chokies/static/media/미연시배경.ef13914fad58fe4f956a.jpg",
+    "static/media/겨울.png": "/chokies/static/media/겨울.91d7321f7c6ccfe68bb1.png",
+    "static/media/여름.png": "/chokies/static/media/여름.cd4154f57f16d4b4c776.png",
+    "static/media/logo.svg": "/chokies/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/chokies/index.html",
+    "main.4fae36d2.css.map": "/chokies/static/css/main.4fae36d2.css.map",
+    "main.49a9d06f.js.map": "/chokies/static/js/main.49a9d06f.js.map",
+    "787.648ca22c.chunk.js.map": "/chokies/static/js/787.648ca22c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fae36d2.css",
+    "static/js/main.49a9d06f.js"
+  ]
+}
