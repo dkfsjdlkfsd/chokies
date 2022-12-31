@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/chokies/static/css/main.4fae36d2.css",
-    "main.js": "/chokies/static/js/main.49a9d06f.js",
+    "main.js": "/chokies/static/js/main.d1d39357.js",
     "static/js/787.648ca22c.chunk.js": "/chokies/static/js/787.648ca22c.chunk.js",
     "static/media/가을.png": "/chokies/static/media/가을.7b0be96f7da96a8f4e00.png",
     "static/media/BlackAndWhitePicture-Regular.ttf": "/chokies/static/media/BlackAndWhitePicture-Regular.c2d7fec846ddfbc4090e.ttf",
@@ -14,11 +14,11 @@
     "static/media/logo.svg": "/chokies/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/chokies/index.html",
     "main.4fae36d2.css.map": "/chokies/static/css/main.4fae36d2.css.map",
-    "main.49a9d06f.js.map": "/chokies/static/js/main.49a9d06f.js.map",
+    "main.d1d39357.js.map": "/chokies/static/js/main.d1d39357.js.map",
     "787.648ca22c.chunk.js.map": "/chokies/static/js/787.648ca22c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4fae36d2.css",
-    "static/js/main.49a9d06f.js"
+    "static/js/main.d1d39357.js"
   ]
 }
