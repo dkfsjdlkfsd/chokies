@@ -40,13 +40,12 @@ const Main = ({scrollIndex}) => {
                     {scrollIndex !== 1 &&
                         <div className='moveImg' onClick={(e) => moveClick1(e)}>
                             <p>허졉 허졉</p>
-                            <img src="https://dkfsjdlkfsd.github.io/chokies/미니쵸키.gif"></img>
+                            <img src='./../img/미니쵸키.gif'></img>
                         </div>
                     }
                     <header className='chokiUp'>
                         <p>왘!!</p>
-                        <img src="https://dkfsjdlkfsd.github.io/chokies/등장.png"></img>
-                        {/* <img src="../img/쵸키/등장.png" alt="" /> */}
+                        <img src="./../img/쵸키/등장.png" alt="" />
                     </header>
                     <div className="divider"></div>
                     <section className='spring'>
@@ -87,8 +86,7 @@ const Main = ({scrollIndex}) => {
                                 <TypingText background="white" text="마계에서 잦은 나댐으로 인해, 인간계로 추방당한 악마. 과거에는 강력한 마안과 매혹적인 목소리로 남을 조종하다시피 했지만, 마왕에게 모든 힘을 뺏기고 거리의 부랑자 신세를 보내다 복수를 꿈꾸며 VRECORD에 입학했다. " speed={10} fontSize="1.5rem" color="black"></TypingText>
                             }
                             <div className='summerImg'>
-                                <img src="https://dkfsjdlkfsd.github.io/chokies/쵸키.png" onClick={(e) => moveClick2(e)}></img>
-                                {/* <img src='../img/쵸키.png' onClick={(e) => moveClick2(e)}></img> */}
+                                <img src='./../img/쵸키.png' onClick={(e) => moveClick2(e)}></img>
                             </div>
                         </div>
                     </section>
@@ -100,11 +98,10 @@ const Main = ({scrollIndex}) => {
                     </section>
                     <div className="divider"></div>
                     <section className='winter'>
-                            <a href="https://www.flaticon.com/kr/free-icons/" title="새해 아이콘">새해 아이콘  제작자: Flowicon - Flaticon</a>
+                        <a href="https://www.flaticon.com/kr/free-icons/" title="새해 아이콘">새해 아이콘  제작자: Flowicon - Flaticon</a>
                         <div onClick={() => setLetterClick(true)}>
                             <p>쵸키꺼!</p>
-                            <img src="https://dkfsjdlkfsd.github.io/chokies/new.png"></img>
-                            {/* <img src="../img/new.png" alt="" /> */}
+                            <img src="./../img/new.png" alt="" />
                         </div>
                     </section>
                 </>
