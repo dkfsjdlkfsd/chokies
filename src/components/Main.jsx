@@ -74,7 +74,6 @@ const Main = ({scrollIndex}) => {
                                         </a>
                                     </li>
                                 </ul>
-                                {/* <img src='../img/프로필.jpeg'></img> */}
                             </div>
                         </div>
                     </section>
