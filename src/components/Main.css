@@ -1,0 +1,235 @@
+
+.moveImg{
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+    position: fixed;
+    animation-name: chokie;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-fill-mode: forwards;
+}
+.moveImg > img {
+    width: 100%;
+    height: 100%;
+}
+.moveImg > p {
+    border: 1px solid rgb(229, 229, 229);
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    margin : 0
+}
+.Container{
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-image: url( "../../public/img/처음.png" );
+    z-index: 100;
+}
+.ContainerNone{
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+    background-image: url( "../../public/img/처음2.png" );
+    background-size: cover;
+    z-index: 100;
+}
+
+.chokiUp{
+    position: relative;
+    height: 100vh;
+    background: #000;
+}
+.chokiUp > p{
+    color: #fff;
+    margin: 0;
+    font-size: 56px;
+    transform: translateY(100%);
+    animation: sliderText 1s;
+}
+.chokiUp > img{
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50% , 0);  
+    animation: slider 1s;
+}
+.spring,
+.summer,
+.fall,
+.winter{
+    height: 100vh;
+}
+/* 봄 */
+.spring{
+    width: 100%;
+    position: relative;
+    background-image: url( "../../public/img/봄.png" );
+    background-size: cover;
+}
+.spring > div {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+.spring > div > div{
+    font-family: chokie;
+    font-size: 46px;
+    color: rgb(255, 0, 38);
+    margin: 0 auto;
+    height: 50%;
+}
+.spring > div > div:nth-child(1)  {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    display: flex;
+    justify-content: space-around
+}
+.spring > div > div:nth-child(2) > ul  {
+    position: absolute;
+    bottom: 10%;
+}
+.spring > div > div:nth-child(2) > img  {
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+    width: 700px;
+}
+
+.summer{
+    background-image: url( "../../public/img/여름.png" );
+    background-size: cover;
+    position: relative;
+}
+
+.summer > div {
+    display: inline-block;
+    width: 700px;
+    padding: 10px;
+}
+.summer > div > div{
+    padding: 5px;
+    line-height: 25px;
+}
+.summerImg {  
+    height: 80%;
+    position: relative;
+}
+.summerImg > img {
+    height: 430px;
+    display: inline-block;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(50% , 0);  
+    animation: vibration 0.1s infinite;
+}
+.summer > h1 {
+    padding: 10px;
+    font-size: 34px;
+    font-family: chokie;
+    color:rgb(255, 255, 255);
+}
+.mouseHoverText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    font-family: chokie;
+    color:darkorange;
+}
+
+.fall{
+    background-image: url( "../../public/img/가을.png" );
+    background-size: cover;
+}
+.fall > p{
+    font-family: chokie;
+    font-size: 36px;
+    padding : 20px 0;
+}
+.fall > iframe { 
+    margin-right: 5%;
+}
+.winter{
+    background-image: url( "../../public/img/겨울.png" );
+    background-size: cover;
+    position: relative;
+}
+
+.winter > div {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: black;
+}
+.winter > div > p{
+    font-size: 25px;
+    font-family: chokie;
+    background-color:rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.winter > div > img{
+    width: 100%;
+    height: 100%;
+}
+.winter > div > img:hover{
+    transform: scale(1.5);   
+    transition: transform .5s; 
+}
+
+
+/* 키프레임 이름 = 애니메이션 이름 */
+@keyframes chokie {
+    0% {
+        top: 0;
+        left:0;
+    }
+    100% {
+        top: 100%;
+        right:0;
+    }
+}  
+@keyframes slider {
+    0% {
+        transform: translate( -50% ,100%);
+    }
+    100% {
+        transform: translate(-50% , 0);
+    }
+}
+@keyframes sliderText {
+    0% {
+        transform: translate( 0 , -100%);
+    }
+    100% {
+        transform: translate( 0 , 100%);
+    }
+}
+
+
+@keyframes summerImgMove {
+    0% {
+        transform: translate( -50% ,100%);
+    }
+    100% {
+        transform: translate(-50% , 0);
+    }
+}
+@keyframes vibration {
+    from {
+        transform: rotate(2deg);
+    }
+    to {
+        transform: rotate(-2deg);
+    }
+}

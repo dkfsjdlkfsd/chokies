@@ -1,0 +1,31 @@
+.letterContainer {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.8);
+    font-family: chokie;
+    text-align: left;
+    z-index: 999;
+}
+
+.letterContainer > div {
+    width: 500px;
+    height: 488px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+    overflow-y: auto;
+}
+
+.letterContainer > div > ul{
+    margin: 0;
+    padding: 0;
+}
+.letterContainer > div > ul > li{
+    padding: 10px;
+    border-bottom: 0.5px solid #000;
+}
